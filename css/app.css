@@ -1,0 +1,101 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/f8/03/50/f8035042eda4eaeac4013e4f79ed85b2.jpg");
+     /* Require review: Removed the commented code */
+} 
+.wrapper {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 1355px;
+}
+
+.content-position{
+    background-color: rgba(255,255,255,0.6); 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2%;
+    height: 600px;
+    width: 96%;
+	position: absolute;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.fa1{
+    color: blue;
+}
+.fa2{
+    color: yellow;
+}
+.fa3{
+    color: green;
+}
+
+.vertical-line{
+    border-left: 1px solid white;
+    height: 478px;
+	margin-left: 30px;
+}
+
+.color-option-container{
+    
+    background-color: rgba(255,255,255,0.4);
+	text-align: left;
+	margin-left: 20px;
+	position: relative;
+	
+}
+
+
+
+.grid-size-container{
+    background-color: rgba(255,255,255,0.4);
+	margin-left: 20px;
+	
+    position: relative;
+	
+}
+
+.text-line{
+    border: none;
+    border-bottom: 1px solid;
+    width: 30%;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.rows{
+    float: left;
+}
+
+.cols{
+    float: center;
+    margin-left: 20px;
+}
+
+.drawing-area{
+    text-align: center;
+	visibility: hidden;
+}
+
+.btn-size{
+	text-align: center;
+width: 60px;
+}
+
+.colorFill-Blue{
+	background-color: blue;
+}
+.colorFill-Green{
+	background-color: green;
+}
+
+.colorFill-Yellow{
+	background-color: yellow;
+}
